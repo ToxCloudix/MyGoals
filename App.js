@@ -4,7 +4,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import Header from './components/header';
 import List from './components/list';
 import Add from './components/add';
-import { FlatList } from 'react-native-web';
+import { FlatList } from 'react-native';
 
 export default function App() {
   const [listOfItems, setListOfItems] = useState([
